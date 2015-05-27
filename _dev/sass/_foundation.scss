@@ -1,0 +1,21 @@
+.tab-start {
+  width: 70%;
+  margin: 30px auto 100px;
+}
+
+.tab-contents { position: relative; }
+.tab-contents div {
+  padding: 20px;
+  background: rgba(0, 167, 255, 0.2);
+  display: none;
+}
+#wrapBox div {
+  padding: 20px;
+  background: rgba(0, 167, 255, 0.2);
+  display: none;
+}
+.tab-start .tab-contents div:first-child { background: rgba(0, 0, 0, 0.1); }
+.tab-start .tab-contents div:last-child { background: rgba(191, 76, 174, 0.2); }
+
+#wrapBox div:first-child { background: rgba(0, 0, 0, 0.1); }
+#wrapBox div:last-child { background: rgba(191, 76, 174, 0.2); }
